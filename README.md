@@ -16,9 +16,13 @@ A restaurant aggregator wants to understand its own marketplace: which cuisines 
 Ships with a bonus Country-Code.xlsx lookup table (the main CSV only has a numeric country code)
 
 **Tools & Technologies**
+
 **SQL Server** – Data querying and analysis
+
 **Power BI** – Dashboard development
+
 **Python (Pandas)** – Data cleaning and preprocessing
+
 **Jupyter Notebook** – Data preparation
 
 **Analysis walkthrough & key findings**
