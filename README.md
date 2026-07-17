@@ -17,9 +17,10 @@ Ships with a bonus Country-Code.xlsx lookup table (the main CSV only has a numer
 **Jupyter Notebook** – Data preparation
 
 **Analysis walkthrough & key findings**
-**Geographic distribution** — the dataset is ~91% Indian and dominated by Delhi NCR (New Delhi, Gurgaon, Noida). Any city/cuisine conclusion should be read as "true for Delhi NCR", not global.
-**Cuisine popularity vs. quality diverge** — North Indian, Chinese, and Fast Food are the most common cuisines, but Brazilian, International, and Indian (as a standalone label) rate highest on average (min. 20 restaurants per cuisine, to avoid small-sample noise).
-**Price vs. rating** — raw cost for two barely correlates with rating (Pearson r = 0.077), but Zomato's own 1-4 price tier correlates much more strongly (r = 0.403). Market segment predicts quality better than the sticker price does.
-**Operational features** — restaurants with table booking rate noticeably higher on average (3.59 vs. 3.41) than those without; online delivery shows almost no relationship. Read as correlation (booking as a proxy for an established, higher-end restaurant), not causation.
-**Best value** — a rating / cost_for_two score (restricted to restaurants already rated ≥ 4.0) surfaces high-quality, low-cost restaurants that a simple "top rated" list would miss.
+
+**1.Geographic distribution** — the dataset is ~91% Indian and dominated by Delhi NCR (New Delhi, Gurgaon, Noida). Any city/cuisine conclusion should be read as "true for Delhi NCR", not global.
+**2.Cuisine popularity vs. quality diverge** — North Indian, Chinese, and Fast Food are the most common cuisines, but Brazilian, International, and Indian (as a standalone label) rate highest on average (min. 20 restaurants per cuisine, to avoid small-sample noise).
+**3.Price vs. rating** — raw cost for two barely correlates with rating (Pearson r = 0.077), but Zomato's own 1-4 price tier correlates much more strongly (r = 0.403). Market segment predicts quality better than the sticker price does.
+**4.Operational features** — restaurants with table booking rate noticeably higher on average (3.59 vs. 3.41) than those without; online delivery shows almost no relationship. Read as correlation (booking as a proxy for an established, higher-end restaurant), not causation.
+**5.Best value** — a rating / cost_for_two score (restricted to restaurants already rated ≥ 4.0) surfaces high-quality, low-cost restaurants that a simple "top rated" list would miss.
 
